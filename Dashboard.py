@@ -18,7 +18,7 @@ if f1 is not None:
     st.write(filename)
     dataset = pd.read_csv(filename, encoding= "ISO-8859-1")
 else:
-    os.chdir(r'C:\Users\user\Desktop\Banking_Dataset\Banking\Data')
+    os.chdir(r'/Users/macbookpro/BankingDatasetClassification')
     dataset = pd.read_csv("Train-set.csv", encoding= "ISO-8859-1")
 
 col1, col2 = st.columns((2))
